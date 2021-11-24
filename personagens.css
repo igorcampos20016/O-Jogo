@@ -1,0 +1,79 @@
+p{
+    color:red;
+}
+
+h1{
+    color:red;
+}
+
+footer {
+    color:red;
+}
+
+body {
+    background-color:black;
+}
+
+div {
+    width: auto;
+    height: auto;
+    display: inline;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width:100vh;
+    margin:10px;
+    position: relative;
+    text-align: center;
+  }
+
+.holder {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    width: 100vh;
+    margin:10px;
+    position: relative;
+    text-align: center;
+}
+.imagem {
+  display: inline;
+  width: 200px;
+  margin: 10px;
+  position: relative;
+  text-align: center;
+}
+.imagem::after {
+  content: attr(data-title); /* estilo que coloco a legenda no lugar */
+  position: absolute;
+  width: 100%;
+  bottom: -20px;
+  left: 0;
+}
+
+.style_de_text{
+    
+    font-family: 'sans-serif';
+    font-size: 18px;
+    line-height: 28px;
+    color:red;
+}
+
+.botoom_bar {
+
+    display: flex;
+    justify-content: flex-start;
+    margin: 40px;
+    padding: 20px;
+}
+
+.container_pai {
+
+    display: flex;
+    justify-content: flex-start;
+    margin: 40px;
+    padding: 20px
+}
